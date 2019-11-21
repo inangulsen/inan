@@ -1,0 +1,10 @@
+"""read a list of numbers of arbitrary length in a line 
+   and display the sum of all the elements.)"""
+   
+   
+numbers = [int(x) for x in input("Enter some numbers seperated by comma: ").split(",")]
+print ("Numbers: " , numbers)
+result = 0
+for i in numbers:
+    result = result + i
+print ("Summation of the numbers = ", result)
